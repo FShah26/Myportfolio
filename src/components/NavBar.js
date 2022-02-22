@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/App.css';
 import {FaUserAlt, FaAddressBook,FaPhoneAlt,FaGraduationCap,FaBriefcase,FaLaptopCode,FaMedal} from "react-icons/fa"; 
 import $ from 'jquery';
@@ -24,7 +23,7 @@ export default function NavBar()
     MenuTogglerClose();
 },[]);
     return(
-    <div>
+    <>
       <div className='mob-header'>
         <div className='d-flex'>
           <div className='navbar-brand'>
@@ -91,6 +90,6 @@ export default function NavBar()
          </ul>         
      </header>
 
-    </div>
+    </>
     )
 }
