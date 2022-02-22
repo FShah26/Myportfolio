@@ -3,6 +3,7 @@ import './css/App.css';
 import React, { useEffect,useState }  from 'react';
 import NavBar from './components/NavBar';
 import Profile from './sections/Profile';
+import Biography from './sections/Biography';
 import $ from 'jquery';
 
 function App() {
@@ -32,6 +33,7 @@ const hideLoader = () => setLoader(false);
       }
       <NavBar/>
       <Profile />
+      <Biography />
       </>
   );
 }
