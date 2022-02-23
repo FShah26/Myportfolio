@@ -95,3 +95,54 @@ export const certificates = [
       description:`Through this course, I was able to build my foundation knowledge on cloud computing concepts such as Deployment and Delivery models, Fundamental Cloud architectures,Security and Business concerns realted to it and about various cloud services provided by AWS.`
     }
   ];
+
+  export const experience = [
+    {
+    title: 'Co-Op Developer',
+    company:'Kinaxis Inc.',
+    duration:'Jan 2022 - Present',
+    content: `Currently working as a full-stack co-op developer in the Innovation Incubator
+    team where the responsibilities are to develop proof-of-concepts related to the organization’s product and working on the enhancements on the algorithms written in C++ for the new workflows in the existing product.`
+  },
+  {
+    title: 'Software Engineer',
+    company:'SSM Infotech Solutions Pvt. Ltd.',
+    duration:'Sep 2019 - Jan 2021',
+    content: `• Enhanced the product “Alarm Information and Management System (AIMS)” as measured by its performance in terms of time of alarm to be fetched from the distributed control system (DCS) panel to the AIMS system reduced and better key performance indicator (KPI) of the plant reports generation.
+    
+    Techstack: .NET framework, C#, REST API 
+    
+    • Developed (Initial Phase) and integrated e-logbook cross-platform application with an in-house multi-purpose development platform to allow the industrial clients to enter the logs of the industrial and mechanical equipment readings hassle-free and get the interactive customized reports and charts to gain better insights about the industrial processes.
+    
+    Techstack: Xamarin, SQL Server
+    
+    • Developed desktop-based application for tracking the configured alarms on Large Video Screen (LVS) with hooter functionality which alerts the site engineers about the critical alarms in the system. 
+    
+    Techstack: .NET framework, C#  
+    
+    • Developed database stored procedures for the customized alarm report generation for the user.`
+  },
+  {
+    title: 'Systems Engineer',
+    company:'Infosys Ltd.',
+    duration:'Jul 2018 - Aug 2019',
+    content: `• Provided application support to clients by resolving the application performance issues, for instance, the functionality of booking the meeting hall was not working as expected due to which multiple users were able to book same room at the overlapping duration which led to confusion about the actual booking, faced by them within the defined Service Level Agreement (SLA) by fixing the application bugs based on the interaction with the clients.
+    
+    • Collaborated with the database team to perform the database remediation activity, which was the most critical part as the whole user’s bank account data 
+    was involved in this activity and even a single incorrect step might have led to the data loss, as a part of the infrastructure migration from SQL Server 2003 
+    to SQL Server 2013.
+    
+    • Provided application support for the product RSA Archer GRC (governance, risk and compliance) platform related to the user and workflow management.
+    
+    • Code re-writes for a Contract management System (CMS) web-based application from VB.net to C#.`
+  }
+  ,
+  {
+    title: 'Systems Engineer Intern',
+    company:'Infosys Ltd.',
+    duration:'Jan 2018 - May 2018',
+    content: `• Completed internship on technologies such as Python, SQL, RDBMS, C#, Advanced C#, ASP.NET MVC Entity Framework, jQuery, AJAX.
+    
+    • Applied the learning about the above-mentioned technologies through development of a web application "Automated Schedule Generation " by leading a group of 5 people to help the organization to automatically schedule classes for the upcoming trainee and intern batches.`
+  }
+];
