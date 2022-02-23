@@ -5,6 +5,7 @@ import {CgCPlusPlus,CgCloud} from 'react-icons/cg';
 import {SiCsharp,SiSpringboot,SiMysql,SiMicrosoftsqlserver,SiMongodb,SiAzuredevops,SiJira,SiSwagger,SiPostman,SiDotnet} from 'react-icons/si';
 import { Container,Row,Col } from 'react-bootstrap';
 import Ratings from '../components/Ratings';
+import Certifications from './Certifications';
 
 export default function Skills(){
     return(
@@ -259,7 +260,7 @@ export default function Skills(){
                 </Col>
                 </Row>    
             </Container>
-            {/* <Upskilling /> */}
+            <Certifications />
         </section>
         <br/><br/><br/><br/><br/>
         </>
