@@ -146,3 +146,82 @@ export const certificates = [
     • Applied the learning about the above-mentioned technologies through development of a web application "Automated Schedule Generation " by leading a group of 5 people to help the organization to automatically schedule classes for the upcoming trainee and intern batches.`
   }
 ];
+
+export const projects = [
+  {
+    title:'White Blood Cell subtype Prediction using CNN',
+    duration:'June 2021 - Sep 2021',
+    techstack:`Python, Pandas, Numpy,TensorFlow, Seaborn, Keras, Tensorboard, CNN`,
+    subject:'Machine Learning',
+    description:`The goal of this project to was to implement the end-to-end machine learning pipeline on a image dataset of White Blood Cells and identify one of the 4 types of the WBCs based on the given blood sample image.
+    
+    • My contribution to this project was to pre-process the image dataset, experiment with the CNN Architecture to come up with the better architecture that can produce accurate results, evaluating the model performance using different evaluation metrics and comparision with the benchmark model.`
+  },
+  {
+    title:'Rainfall Prediction using Random Forect, XGBoost & ANN on Australian Rainfall Dataset',
+    duration:'June 2021 - Sep 2021',
+    techstack:`Python, Plotly, Seaborn, Dash, Flask, XGBoost, Random Forest`,
+    subject:'Visual Analytics',
+    description:`The aim of this project was to apply the visualization techniques on the dataset to gain better insights about the data and then apply a Machine Learning model to predict the probability of whether it would rain on a given day or not based on the past historical data over a particular region.
+    
+    • I was responsible for developing visualization module related to feature coorelation between the features, trend analysis, holistic view of the rainfall over the map of australia and the prediction module using Random Forest and XGBoost.
+    
+    • The main learning from this project was the Exploratory data analysis part using different visualization techniques and creating an interactive dashboard using plotly dash, joblib & flask.`
+  },
+  {
+    title:'MusicO – A Music Streaming Web Application',
+    duration:'May 2021 - Aug 2021',
+    techstack:`ReactJS, SpringBoot, MySQL, Amazon RDS`,
+    subject:'Advanced Web Development',
+    description:`Developed a Music streaming web application that allows the registered users to listen songs, create and manage playlists, connect, and make friends with other application users and import their public playlists.
+    
+    • In this project, ReactJS was used to created the front-end of the application which interacts with APIs created using SpringBoot for different functionalities and the MySQL database was hosted on Amazon RDS.
+    
+    • My Contribution in this project was developing the landing page for the user where the user can see the recently played songs by them and perform operations such as play, like, add to playlist,etc. and developed the search page with autocomplete where the user can search songs, artists,albums,etc.`
+  },
+  {
+    title:'Halifax Foodie – A Serverless Food delivery app',
+    duration:'May 2021 - Aug 2021',
+    techstack:`ReactJS, NodeJS, AWS, GCP,AWS Lambda, AWS Comprehend, Amazon SNS, Amazon SQS, Google Cloud Pub/Sub, Amazon RDS`,
+    subject:'Serverless Data Processing',
+    description:`Developed a multi-cloud serverless event driven food delivery web application that allows the restaurants’ to register, manage menus and check recipe similarity score with other restaurants using machine learning technique and allows customers to order food, provide feedback and ratings, chat with restaurant team, track the order, etc. AWS services like AWS Lambda, SNS, SQS, S3, API Gateway were the major components used as the backend
+    
+    • I was responsible for developing the chatting module between the restaurant team and the user using Cloud Pub/Sub service and creating a wordcloud based on the food ratings provided by the customers after performing sentiment analysis on the reviews using the AWS Comprehend and then picking up the adjectives used.
+    
+    • The other functionality for which I was responsible was to send e-mail notifications to the user through AWS SNS and SQS based on the order status as updated by the restaurant team.`
+  },
+  {
+    title:'Cloud Book Store',
+    duration:'May 2021 - Aug 2021',
+    techstack:`ReactJS, NodeJS, AWS Lambda, Amazon Lex, Amazon SNS, Amazon RDS`,
+    subject:'Cloud Computing',
+    description:`Developed a multi-cloud Book store web application that allows the admin user to manage the inventory such as books, prices, orders, etc. and the readers/customers to buy books, read desctiption, track order status through chatbot etc. 
+    
+    • The application was a multi-cloud using cloud services from multiple cloud providers Amazon Web Services and Google Cloud Platform. I was given the responsibility to create a chatbot functionality which allows the customers to track their order status, cancel order, find a book, and order a book. This was implemented using AWS Lex and AWS Lambda.
+    
+    • I also contributed in the implementation of the notification module, where I used Amazon SNS to roll out notifications to the user based on the order status. 
+    
+    • Along, with the implementation of the features, the critical part of this project was to analyze different Deployment models with their associated risks and benefits and tradeoffs and then decide on the best suitable option.`
+  },
+  {
+    title:'Distributed Database Management System',
+    duration:'Jan 2021 - April 2021',
+    techstack:`Java, GCP Buckets`,
+    subject:'Data Management, Warehousing & Analytics',
+    description:`Developed a distributed database management system that allows users to execute basic SQL queries and other features such as exporting SQLDump and text based ERD. Google Cloud storage was used to store the centralized Global Data Dictionary (GDD). 
+    
+    • The main objective of the project was the choice of placement of GDD and the data structures to perform the database operations. In this project, LinkedHashMap was chosen for performing the operations on the data and HashMap was chosen to store the metadata of the database tables. 
+    
+    • My responsibilities in this project was to create the sematics & query execution module which loads the database metadata from the permenant storage, check the sematics of the query entered by the user and it's validation and then execute the query on the data and persist it in-memory until the user commits.
+    
+    • The other module on which I worked was the GDD module which includes creation and updation of the GDD file placed on GCP and integration of other modules such as schema generation, query execution, data loading into data structures, loading database metadata into data structure.`
+  },
+  {
+    title:'Course Management System',
+    duration:'Jan 2021 - April 2021',
+    description:`Developed a Course Management System by following a test-driven development (TDD) approach that has a role-based login where the end users can have either of the three roles: Student, Faculty, and Admin. Users can access the application with their registered credentials and perform operations as per their assigned role such as Students can take quiz, take class notes, etc., Faculty can add quiz, enroll students, schedule meeting with students, etc. and Admin can assign courses to faculties and enroll students into the system.`,
+    techstack:`Java, SpringBoot, MySQL, Test-Driven Development,SOLID Principles, Clean-code ,Design Patterns, System Architecture`,
+    subject:'Advanced Software Development'
+  }
+
+];
