@@ -7,6 +7,7 @@ import Biography from './sections/Biography';
 import Skills from './sections/Skills';
 import ProfessionalExp from './sections/ProfessionalExp';
 import Education from './sections/Education';
+import Projects from './sections/Projects';
 import $ from 'jquery';
 
 function App() {
@@ -40,6 +41,7 @@ const hideLoader = () => setLoader(false);
       <Skills/>
       <ProfessionalExp />
       <Education/>
+      <Projects />
       </>
   );
 }
