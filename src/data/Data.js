@@ -230,17 +230,16 @@ export const hackerrankSkills = [
   
   {
     title:'Problem Solving (Basic)',
-    tech:'java128.png',
     link:'https://www.hackerrank.com/certificates/dd185bcef932'
   },
   {
     title:'Java (Basic)',
-    tech:'java128.png',
+    
     link:'https://www.hackerrank.com/certificates/0690dade812d'
   },
   {
     title:'C# (Basic)',
-    tech:'java128.png',
+    
     link:'https://www.hackerrank.com/certificates/718c29d54809'
   },
   {
@@ -250,37 +249,37 @@ export const hackerrankSkills = [
   },
   {
     title:'JavaScript (Basic)',
-    tech:'java128.png',
+    
     link:'https://www.hackerrank.com/certificates/02f562fed02d'
   },
   {
     title:'JavaScript (Intermediate)',
-    tech:'java128.png',
+    
     link:'https://www.hackerrank.com/certificates/796e996dd0b9'
   },
   {
     title:'React (Basic)',
-    tech:'java128.png',
+    
     link:'https://www.hackerrank.com/certificates/e908e7b08bec'
   },
   {
     title:'REST API (Intermediate)',
-    tech:'java128.png',
+    
     link:'https://www.hackerrank.com/certificates/227348284bad'
   },
   {
     title:'SQL (Basic)',
-    tech:'java128.png',
+    
     link:'https://www.hackerrank.com/certificates/f2c6c3118378'
   },
   {
     title:'SQL (Intermediate)',
-    tech:'java128.png',
+    
     link:'https://www.hackerrank.com/certificates/0b741d51bbcc'
   },
   {
     title:'CSS',
-    tech:'java128.png',
+    
     link:'https://www.hackerrank.com/certificates/6ea65f92f2c7'
   }
 ];
