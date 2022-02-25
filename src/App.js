@@ -1,4 +1,3 @@
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/App.css';
 import React, { useEffect,useState }  from 'react';
 import NavBar from './components/NavBar';
@@ -8,6 +7,7 @@ import Skills from './sections/Skills';
 import ProfessionalExp from './sections/ProfessionalExp';
 import Education from './sections/Education';
 import Projects from './sections/Projects';
+import ContactMe from './sections/ContactMe';
 import $ from 'jquery';
 
 function App() {
@@ -42,6 +42,7 @@ const hideLoader = () => setLoader(false);
       <ProfessionalExp />
       <Education/>
       <Projects />
+      <ContactMe />
       </>
   );
 }
