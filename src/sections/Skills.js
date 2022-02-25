@@ -6,6 +6,7 @@ import {SiCsharp,SiSpringboot,SiMysql,SiMicrosoftsqlserver,SiMongodb,SiAzuredevo
 import { Container,Row,Col } from 'react-bootstrap';
 import Ratings from '../components/Ratings';
 import Certifications from './Certifications';
+import CertifiedSkills from './CertifiedSkills';
 
 export default function Skills(){
     return(
@@ -261,6 +262,7 @@ export default function Skills(){
                 </Row>    
             </Container>
             <Certifications />
+            <CertifiedSkills />
         </section>
         <br/><br/><br/><br/><br/>
         </>
