@@ -8,6 +8,7 @@ import ProfessionalExp from './sections/ProfessionalExp';
 import Education from './sections/Education';
 import Projects from './sections/Projects';
 import ContactMe from './sections/ContactMe';
+import Footer from './components/Footer';
 import $ from 'jquery';
 
 function App() {
@@ -43,6 +44,7 @@ const hideLoader = () => setLoader(false);
       <Education/>
       <Projects />
       <ContactMe />
+      <Footer />
       </>
   );
 }
